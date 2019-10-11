@@ -1,7 +1,12 @@
+.section_quick_link {
+    overflow: hidden;
+    position: relative;
+}
+
 .carousel .slick-arrow {
     position: absolute;
     top: 50%;
-    background: url(images/icons/arrow-left.png) center no-repeat;
+    background: url(images/arrow-left.png) center no-repeat;
     border-radius: 3px;
     border: 1.5px solid #0b57a2;
     width: 41px;
