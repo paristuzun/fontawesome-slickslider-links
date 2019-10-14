@@ -43,14 +43,4 @@ jQuery(document).ready(function ($) {
 		fade: true
 	});
 
-	// Scroll to top //
-	$('.totop').on('click', 'a', function (e) {
-		$('html, body').animate({
-				scrollTop: '0px'
-			},
-			1500);
-		e.preventDefault();
-	});
-
-	$('.top_content .carousel .carousel-item .box-title').matchHeight();
 });
