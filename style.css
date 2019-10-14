@@ -72,6 +72,7 @@ a span:hover {
   height: 201px;
   display: block;
   padding-top: 0.6rem;
+  margin: 0 auto;;
 }
 
 .section_quick_link .carousel .carousel-item a:hover {
@@ -111,10 +112,6 @@ a span:hover {
 /* Media Queries */
 
 @media (max-width: 992px) and (min-width: 768px) {
-  .section_quick_link .carousel .carousel-item a {
-    margin: 0 10px;
-  }
-
   .section_quick_link .carousel .slick-arrow.slick-next {
     right: 0;
   }
@@ -138,7 +135,6 @@ a span:hover {
 
 @media (max-width: 768px) {
   .section_quick_link .carousel .carousel-item a {
-    margin: 0 91px;
     padding-top: 0.8rem;
   }
 
